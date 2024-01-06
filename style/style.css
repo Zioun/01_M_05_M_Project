@@ -1,0 +1,204 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Work Sans;
+}
+/* common tag */
+.primary-button{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-top: 32px;
+}
+.primary-title{
+    color: var(--Dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.common-paragraph{
+    color: var(--Dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+header{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+header .header-content{
+    margin-right: 230px;
+    text-align: right;
+}
+header h3{
+    width: 525px;
+    color: var(--Dark-01, #151414);
+    text-align: right;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+header p{
+    width: 494px;
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-left: 30px !important;
+    margin-top: 24px;
+}
+/* about me */
+.about-me{
+    display: flex;
+    padding: 0px 150px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin: 130px 0;
+}
+.about-content > p{
+    margin: 24px 0px 16px 0px;
+}
+.check-item{
+    display: flex;
+    margin-bottom: 8px;
+}
+.check-item span{
+    margin-left: 10px;
+}
+/* plan */
+.plans{
+    padding: 0px 150px;
+    text-align: center;
+    margin: 130px 0;
+}
+.plans-content{
+    margin-bottom: 55px;
+}
+.plan-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.plan h1{
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 16px 0 18px;
+}
+.plan p{
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* call option */
+.call-option{
+    padding: 0px 150px;
+}
+.call-content{
+    background-image: url("../images/gradient2.png"),url("../images/watch.png");
+    background-repeat: no-repeat;
+    padding: 59px 64px;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: bottom;
+}
+.call-content h1{
+    width: 459px;
+    color: #FFF;
+}
+.call-content button{
+    color: #F15B22;
+    background-color: #FFF;
+}
+/* footer */
+footer{
+    background-color: #151414;
+    padding: 130px 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.footer-content h1{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-content p{
+    width: 485px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 16px 0 24px 0;
+}
+.footer-content span{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-bottom: 16px;
+    display: block;
+}
+.social-link a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+.footer-submit h1{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-submit input{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding-left: 20px;
+    margin-top: 31px;
+    font-size: 18px;
+}
+.footer-submit button{
+    margin-top: 16px;
+}
