@@ -31,7 +31,7 @@ body{
     line-height: normal;
 }
 .common-paragraph{
-    color: var(--Dark-02, #444343);
+    color:#444343;
     font-family: Work Sans;
     font-size: 16px;
     font-style: normal;
@@ -53,7 +53,7 @@ header .header-content{
 }
 header h3{
     width: 525px;
-    color: var(--Dark-01, #151414);
+    color: #151414;
     text-align: right;
     font-size: 65px;
     font-style: normal;
@@ -62,7 +62,7 @@ header h3{
 }
 header p{
     width: 494px;
-    color: var(--Dark-02, #444343);
+    color: #444343;
     text-align: right;
     font-size: 16px;
     font-style: normal;
@@ -114,7 +114,7 @@ header p{
     margin: 16px 0 18px;
 }
 .plan p{
-    color: var(--Dark-03, #737272);
+    color:#737272;
     text-align: center;
     font-family: Work Sans;
     font-size: 25px;
